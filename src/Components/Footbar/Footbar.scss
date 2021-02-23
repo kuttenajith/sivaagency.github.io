@@ -1,0 +1,118 @@
+.footerPage {
+  padding: 20px;
+  background-image: url(../../../src/img/footer_coverphoto.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  color: white;
+  .footerContents {
+    .socialNetworkSection {
+      position: absolute;
+      right: 6%;
+      bottom: 15%;
+      a {
+        color: #fff;
+      }
+      h6 {
+        margin: auto;
+      }
+      .socialIcons {
+        cursor: pointer;
+        font-size: 40px;
+        :hover {
+          color: dimgrey;
+        }
+      }
+    }
+    .quickLinks {
+      .quickLinksContents {
+        padding: 20px 0px 0px 10px;
+        a {
+          color: white;
+        }
+        :hover {
+          color: #0499fb !important;
+          text-decoration: none;
+        }
+        .d-flex {
+          align-items: baseline;
+        }
+      }
+      hr {
+        background-color: #27a5f5;
+        height: 2px;
+        width: 50%;
+        margin: inherit;
+      }
+    }
+    .contactInfo {
+      .contactInfoContents {
+        padding: 20px 0px 0px 10px;
+        .mailAddress {
+          a {
+            color: white;
+          }
+        }
+      }
+      hr {
+        background-color: #27a5f5;
+        height: 2px;
+        width: 50%;
+        margin: inherit;
+      }
+      .address,
+      .phoneNumber {
+        p {
+          margin: auto;
+          a {
+            color: white !important;
+          }
+        }
+      }
+    }
+    .subscriptionSection {
+      border: 1px solid #0f83cc;
+      height: fit-content;
+      border-radius: 5%;
+    }
+  }
+}
+.copyrightSection {
+  padding: 20px;
+  background: azure;
+  justify-content: space-between;
+  span {
+    font-size: initial;
+  }
+}
+
+@media only screen and (max-width: 580px) {
+  .copyrightSection {
+    span {
+      font-size: 10px;
+    }
+  }
+  .footerPage {
+    .footerContents {
+      .socialNetworkSection {
+        position: inherit;
+        right: 0;
+        bottom: 0;
+        h6 {
+          margin: 0;
+          padding-top: 5px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .footerPage {
+    .footerContents {
+      .description {
+        flex-flow: wrap-reverse;
+        display: grid !important;
+      }
+    }
+  }
+}
