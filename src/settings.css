@@ -141,10 +141,6 @@
   border-color: #002d4b;
   color: #002d4b;
 }
-.dashboard_screen .footbar {
-  position: inherit !important;
-  background: #f0f0f0;
-}
 
 .widget_button i {
   font-size: x-small;

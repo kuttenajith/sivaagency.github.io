@@ -1,0 +1,52 @@
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.topSection {
+  padding: 10px 0px 10px 0px;
+  .navbar-brand {
+    color: #adb1b7;
+    &:hover {
+      color: #adb1b7;
+    }
+    span {
+      color: #1a3565;
+      text-shadow: 2px 1px #1a3565;
+    }
+  }
+  .navbar-toggler {
+    border: none;
+    outline: none;
+  }
+  .collapse {
+    justify-content: flex-end;
+    a {
+      padding: 7px 40px 0px 20px !important;
+    }
+    .logOut {
+      width: 150px;
+      background: #49ba7d;
+      border: 1px solid #49ba7d;
+      color: white;
+      outline: none;
+      height: 40px;
+      cursor: pointer;
+      border-radius: 30px;
+      &:hover {
+        color: #49ba7d;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:567px) {
+  .topSection {
+    .collapse {
+      a {
+        padding: 7px 40px 14px 0px !important;
+      }
+    }
+  }
+}
